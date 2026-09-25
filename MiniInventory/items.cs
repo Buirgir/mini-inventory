@@ -6,28 +6,43 @@ public class Item
 
 public class Weapon : Item
 {
-    public int MinDamage;
-    public int MaxDamage;
+    int MinDamage;
+    int MaxDamage;
+
 
     public int Attack()
     {
         return Random.Shared.Next(MinDamage, MaxDamage);
     }
+    public void setDamage(int min, int max)
+    {
+        MinDamage = min;
+        MaxDamage = max;
+    }
 }
 
 public class Armor : Item
 {
-    public float Protection;
+    float Protection;
 }
 
 public class Consumable : Item
 {
-    public int UsesMax;
-    public int UsesCurrent;
+    int UsesMax;
+    int UsesCurrent;
+    int healAmmount;
+    string name;
 
-    public  void Use(Character target)
+    public void setStats(string chosenName, int chosenUses, int chosenHealAmmount)
     {
-        target.Hp += 10;
-        UsesCurrent -= 1;
+        name = chosenName;
+        UsesMax = chosenUses;
+        healAmmount = chosenHealAmmount;
+    }
+
+    public void Use(Character target)
+    {
+        target.Heal(10);
+        UsesCurrent += 1;
     }
 }
