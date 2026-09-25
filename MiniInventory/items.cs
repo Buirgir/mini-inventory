@@ -31,11 +31,10 @@ public class Consumable : Item
     int UsesMax;
     int UsesCurrent;
     int healAmmount;
-    string name;
 
     public void setStats(string chosenName, int chosenUses, int chosenHealAmmount)
     {
-        name = chosenName;
+        Name = chosenName;
         UsesMax = chosenUses;
         healAmmount = chosenHealAmmount;
     }

@@ -5,7 +5,8 @@ mainCharacter.Backpack.Items = starterInventory();
 
 mainCharacter.ReName();
 
-
+mainCharacter.Backpack.Display();
+Console.ReadLine();
 
 
 static List<Item> starterInventory()
@@ -14,10 +15,10 @@ static List<Item> starterInventory()
     defaultWeapon.Name = "Wooden Stick";
     defaultWeapon.setDamage(1, 3);
 
-    Consumable smallheal = new Consumable();
-    smallheal.setStats("smallheal", 3, 10);
+    Consumable smallHeal = new Consumable();
+    smallHeal.setStats("smallHeal", 3, 10);
 
 
-    List<Item> items = [defaultWeapon, smallheal];
+    List<Item> items = [defaultWeapon, smallHeal];
     return items;
 }

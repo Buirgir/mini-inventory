@@ -1,0 +1,15 @@
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\bin\Debug\net9.0\MiniInventory.exe
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\bin\Debug\net9.0\MiniInventory.deps.json
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\bin\Debug\net9.0\MiniInventory.runtimeconfig.json
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\bin\Debug\net9.0\MiniInventory.dll
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\bin\Debug\net9.0\MiniInventory.pdb
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\MiniInventory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\MiniInventory.AssemblyInfoInputs.cache
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\MiniInventory.AssemblyInfo.cs
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\MiniInventory.csproj.CoreCompileInputs.cache
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\MiniInventory.sourcelink.json
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\MiniInventory.dll
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\refint\MiniInventory.dll
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\MiniInventory.pdb
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\MiniInventory.genruntimeconfig.cache
+C:\Users\viktor.lindhardsen\Documents\.Programering 2\Mini-Inventory\MiniInventory\obj\Debug\net9.0\ref\MiniInventory.dll
