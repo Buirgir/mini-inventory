@@ -1,4 +1,4 @@
-public class Item
+public abstract class Item
 {
     public string Name;
     public float Weight;
@@ -21,9 +21,14 @@ public class Weapon : Item
     }
 }
 
-public class Armor : Item
+public class Armour : Item
 {
-    float Protection;
+    private float Protection;
+
+    public void setProtection(int P)
+    {
+        Protection = P;
+    }
 }
 
 public class Consumable : Item
