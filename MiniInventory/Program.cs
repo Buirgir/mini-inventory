@@ -25,7 +25,11 @@ if(choiceInt == 1)
 }
 if(choiceInt == 2)
 {
+    Console.WriteLine("Backpack:");
     mainCharacter.Backpack.Display();
+    Console.WriteLine("Press the number of the item you wish to view");
+    int choice = Choice(0, mainCharacter.Backpack.Items.Count);
+    CheckItemType(mainCharacter.Backpack.Items, choice);
     Console.WriteLine("Press enter to continue");
     Console.ReadLine();
 }
@@ -59,13 +63,30 @@ static List<Item> starterInventory()
 
 static void CheckItemType(List<Item> items, int slot)
 {
-    foreach(Item item in items)
-    {
-        if (item is Weapon)
-        {
+    //foreach(Item item in items)
+    //{
+        //if (item is Weapon)
+        //{
             //((Weapon)item)
-        }
+        //}
+    //}
+    if(items[slot] is Weapon)
+    {
+        Console.WriteLine($"Type: Weapon");
+        Console.WriteLine($"Damage: {((Weapon)items[slot]).printDamage()}");
     }
+    else if(items[slot] is Armour)
+    {
+        Console.WriteLine($"Type: Armour");
+        Console.WriteLine($"Protection: {((Armour)items[slot]).ProtectionAmmount()}");
+    }
+    else if(items[slot] is Consumable)
+    {
+        Console.WriteLine($"Type: Consumable");
+        Console.WriteLine($"HealAmmount: {((Consumable)items[slot]).HealAmmount()}");
+        Console.WriteLine($"UsesLeft: {((Consumable)items[slot]).UsesLeft()}");
+    }
+    else Console.WriteLine("This item is invalid");
 }
 static Item GetRadomItemFromLootPool()
 {
@@ -75,6 +96,7 @@ static Item GetRadomItemFromLootPool()
     ironWeapon.setDamage(3, 6);
     Weapon diamondWeapon = new();
     diamondWeapon.Name = "DiamondSword";
+    diamondWeapon.setDamage(6, 9);
 
     Armour ironArmour = new();
     ironArmour.Name = "IronArmour";
